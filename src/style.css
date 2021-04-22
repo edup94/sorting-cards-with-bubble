@@ -1,1 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.figura2 {
+  transform: rotate(180deg);
+}
+
+.card-body {
+  width: 250px;
+  margin-left: 0px;
+}
