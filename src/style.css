@@ -1,9 +1,48 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-.figura2 {
-  transform: rotate(180deg);
+.body {
+  box-sizing: border-box;
 }
-
-.card-body {
+.card {
+  border-radius: 10px;
+  margin: auto;
+  display: inline-block;
+  height: 300px;
   width: 250px;
   margin-left: 0px;
+  position: relative;
+  text-align: center;
+  padding-top: 110px;
+  font-size: 40px;
+}
+.card::before {
+  position: absolute;
+  font-size: 40px;
+  top: 20px;
+  left: 20px;
+}
+.card::after {
+  position: absolute;
+  font-size: 40px;
+  bottom: 20px;
+  right: 20px;
+}
+.spades:before,
+.spades:after {
+  content: "\2660";
+  color: black;
+}
+.clubs:before,
+.clubs:after {
+  content: "\2663";
+  color: black;
+}
+.diams:before,
+.diams:after {
+  content: "\2666";
+  color: red;
+}
+.hearts:before,
+.hearts:after {
+  content: "\2665";
+  color: red;
 }
