@@ -6,31 +6,30 @@
   border-radius: 10px;
   margin: auto;
   display: inline-block;
-  height: 300px;
-  width: 250px;
-  margin-left: 0px;
+  height: 320px;
+  width: 220px;
   position: relative;
   text-align: center;
-  padding-top: 110px;
-  font-size: 40px;
+  padding-top: 115px;
+  font-size: 60px;
 }
 .card::before {
   position: absolute;
-  font-size: 40px;
-  top: 20px;
+  font-size: 60px;
+  top: 0px;
   left: 20px;
 }
 .card::after {
+  transform: rotate(180deg);
   position: absolute;
-  font-size: 40px;
-  bottom: 20px;
+  font-size: 60px;
+  bottom: 0px;
   right: 20px;
 }
-.spades:before,
-.spades:after {
+/* .symbol1 {
   content: "\2660";
   color: black;
-}
+} */
 .clubs:before,
 .clubs:after {
   content: "\2663";
