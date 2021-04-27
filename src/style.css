@@ -10,38 +10,19 @@
   width: 220px;
   position: relative;
   text-align: center;
-  padding-top: 115px;
-  font-size: 60px;
+  font-size: 70px;
 }
-.card::before {
-  position: absolute;
-  font-size: 60px;
-  top: 0px;
-  left: 20px;
+.number {
+  height: 110px;
 }
-.card::after {
+.symbol2 {
   transform: rotate(180deg);
-  position: absolute;
-  font-size: 60px;
-  bottom: 0px;
-  right: 20px;
 }
-/* .symbol1 {
-  content: "\2660";
-  color: black;
-} */
-.clubs:before,
-.clubs:after {
-  content: "\2663";
-  color: black;
-}
-.diams:before,
-.diams:after {
-  content: "\2666";
+
+.color-rojo {
   color: red;
 }
-.hearts:before,
-.hearts:after {
-  content: "\2665";
-  color: red;
+
+.color-black {
+  color: black;
 }

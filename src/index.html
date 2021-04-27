@@ -13,11 +13,27 @@
   </head>
 
   <body class="bg-success">
-    <div class="container d-flex mt-2">
+    <div class="container d-flex justify-content-center mt-2">
       <div class="row d-flex">
-        <div class="col-12 d-flex">
-          <input class="btn btn-primary mb-2" type="button" value="Cards" />
-        </div>
+        <form class="form-inline d-flex justify-content-center col-12 mb-2">
+          <div class="form-group">
+            <input
+              id="input"
+              type="number"
+              name="quantity"
+              min="1"
+              max="5"
+              class="form-control"
+              placeholder="Cartas"
+            />
+            <input
+              id="draw"
+              class="btn btn-primary form-control"
+              type="button"
+              value="Draw"
+            />
+          </div>
+        </form>
         <div class="cardlist d-flex"></div>
       </div>
     </div>
